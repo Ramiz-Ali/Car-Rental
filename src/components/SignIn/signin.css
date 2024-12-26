@@ -1,0 +1,242 @@
+.signin-main {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+
+.login-image1 {
+    width: 50%;
+    background-color: rgba(48, 121, 178, 0.91);
+    position: relative;
+    height: 130vh;
+}
+
+.login-image2 {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+
+.login-data {
+    width: 30%;
+    height: 85vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.logo-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.below-logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.below-logo-text h2 {
+    font-size: 19px;
+}
+
+.below-logo-text p {
+    font-size: 13px;
+    color: #959FAF;
+}
+
+.email-input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.emai-input2 {
+    width: 340px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #959FAF;
+    font-size: 14px;
+}
+
+.signin-inputs {
+    /* margin-left: 30px; */
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-and-icon {
+    width: 345px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #959FAF;
+    padding-left: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.password-input {
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 14px;
+}
+.check-box-input{
+    cursor: pointer;
+}
+.eye-btn {
+    border: none;
+    background: none;
+    padding-right: 10px;
+}
+
+.remember-forget {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 28px;
+    font-size: 15px;
+
+}
+
+.rember-me-div {
+    display: flex;
+    gap: 10px;
+
+}
+
+.remember-forget-p1 {
+    color: #3563E9;
+    cursor: pointer;
+}
+.signin-btn-div{
+    width: 352px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3563E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.signin-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dont-account2{
+    display: flex;
+    justify-content: center;
+    padding-right: 45px;
+    font-size: 15px;
+    width: 100%;
+}
+.dont-account-p1{
+    display: flex;
+    gap: 5px;
+}
+.dont-account-p2{
+    color: #3563E9;
+    cursor: pointer;
+}
+.signin-google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.signin-google-p1{
+    color: #959FAF;
+    font-size: 15px;
+}
+.google-div{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ecebeb;
+    border-radius: 5px;
+
+}
+.google-img{
+    width: 18px;
+    height: 18px;
+    /* padding-right: 20px; */
+
+}
+.google-div p{
+    font-size: 15px;
+}
+.link2{
+    text-decoration: none;
+    color: black;
+}
+.fb-img{
+    width: 13px;
+    height: 18px;
+}
+@media screen and (max-width:1150px) {
+    .signin-main{
+        display: flex;
+        gap: 70px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .login-data{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .signin-main{
+        display: flex;
+        justify-content: center;
+    }
+    .login-image1{
+        display: none;
+    }
+    .login-image2{
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+    
+    .emai-input2 {
+        width: 270px;
+        height: 30px;
+       
+    }
+    .input-and-icon {
+        width: 275px;
+        height: 40px;
+    }
+
+    .signin-btn-div{
+        width: 282px;
+        height: 40px;
+
+    }
+    .signin-btn{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,336 @@
+.rentdata-main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 30px;
+    align-items: center;
+}
+.images-card{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.view-images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.big-car-image{
+    width: 830px;
+    height: 350px;
+}
+.view-images-small{
+    width: 830px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    
+}
+.small-images{
+    width: 158px;
+}
+.rentdata-card{
+    width: 400px;
+    height: fit-content;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.car-name1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.star-ratings{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.star-ratings p{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.card-data2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+.card-data-p1{
+    line-height: 30px;
+    
+}
+.card-data2-line1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.card-data2-line1 p{
+    color: #959FAF;
+    font-size: 17px;
+}
+.card-data2-line1 h5{
+     font-size: 15px;
+}
+.card-data2-line2{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+.card-data2-line2 p{
+    color: #959FAF;
+    font-size: 17px;
+}
+.card-data2-line2 h5{
+     font-size: 15px;
+}
+.car-price3{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 30px;
+}
+.car-price-rent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+.car-price-rent p{
+    font-size: 14px;
+    color: #959FAF;
+}
+.car-price-line{
+    text-decoration: line-through;
+    color: #959FAF;
+    font-size: 18px;
+}
+.car-price3-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.rentdata-rent-btn{
+    width: 110px;
+    height: 50px;
+    background-color: #3563E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 25px 0 0 0 ;
+
+}
+.rent-noww-btn{
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.reviews-main{
+    width: 98%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.reviews-total{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reviews-count{
+    width: 40px;
+    height: 30px;
+    background-color: #3563E9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.reviewr-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 30px;
+    
+}
+.reviewr-name-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.review-user-img{
+    width: 60px;
+    height: 60px;
+}
+.review-username{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.review-username h3{
+    font-size: 18px;
+}
+.review-username p{
+    font-size: 13px;
+    color: #959FAF;
+}
+.reviewr-name-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reviewr-right-stars{
+    display: flex;
+    gap: 3px;
+}
+.reviewr-name-right p{
+    color: #959FAF;
+    text-align: right;
+    font-size: 15px;
+}
+.reviewr-review-text{
+    padding: 0 10px 0 100px;
+}
+.reviewr-review-text p{
+    line-height: 25px;
+    color: #959FAF;
+}
+.show-all-icon{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    color: #959FAF;
+    font-size: 15px;
+    cursor: pointer;
+}
+@media screen and (max-width:860px) {
+    .images-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:840px) {
+    .big-car-image{
+        
+        height: 320px;
+    }
+    .view-images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* .small-images{
+        width: 138px;
+    } */
+}
+@media screen and (max-width:760px) {
+    .big-car-image{
+        width: 630px;
+        height: 270px;
+    }
+    /* .small-images{
+        width: 118px;
+    } */
+}
+
+@media screen and (max-width:650px) {
+    .big-car-image{
+        width: 530px;
+        height: 240px;
+    }
+    /* .small-images{
+        width: 98px;
+    } */
+    .reviewr-name{
+        padding: 0 20px 0 0px;
+    }
+    .reviewr-review-text{
+        padding: 0 10px 0 30px;
+    }
+ 
+}
+@media screen and (max-width:440px){
+    .rentdata-card{
+    width: 320px;
+    height: fit-content;
+    padding: 15px;
+    gap: 10px;
+    }
+    .card-data-p1{
+        text-align: center;
+    }
+    .card-data2-line1{
+        gap: 25px;
+    }
+    .card-data2-line1 p{
+        font-size: 15px;
+    }
+    .card-data2-line2{
+        gap: 30px;
+    }
+    .card-data2-line2 p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:390px) {
+    .review-username h3{
+      font-size: 15px;
+    }
+    .review-username p{
+        font-size: 10px;
+    }
+    .review-user-img{
+        width: 40px;
+        height: 40px;
+    }
+    .reviewr-review-text{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:339px) {
+    .review-username h3{
+        font-size: 11px;
+      }
+      .review-username p{
+          font-size: 9px;
+      }
+      .reviewr-review-text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:365px) {
+    .rentdata-card{
+        width: 280px;
+        height: fit-content;
+        padding: 15px;
+        gap: 10px;
+        }
+        .card-data2-line1{
+            gap: 20px;
+        }
+        .card-data2-line1 p{
+            font-size: 13px;
+        }
+        .card-data2-line2{
+            gap: 25px;
+        }
+        .card-data2-line2 p{
+            font-size: 13px;
+        }
+}

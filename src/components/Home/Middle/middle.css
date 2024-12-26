@@ -1,0 +1,406 @@
+.fell-the-best {
+    width: 91.5%;
+    height: fit-content;
+    background-color: #fff;
+    margin: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 50px 0;
+    gap: 50px;
+}
+.fell-the-best-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tex {
+    display: flex;
+    justify-content: center;
+}
+
+.vectors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vector1 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.vector1-image {
+    position: relative;
+}
+
+.vectoer1-icon {
+    position: absolute;
+    left: 3.2rem;
+    top: 2.5rem;
+}
+
+.vectoer1-icon1 {
+    position: absolute;
+    left: 2.8rem;
+    top: 2.2rem;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.paragraph2 {
+    padding-left: 60px;
+}
+
+.vector1 h2 {
+    color: #3563E9;
+
+}
+
+.vector1 p {
+    color: #BFBFC1;
+    margin: 0;
+    text-align: center;
+}
+
+
+.fell-the-best2 {
+    width: 93%;
+    height: 380px;
+    background-color: #fff;
+    margin: 60px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.driver-image {
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.fell-the-best2 h1 {
+    position: absolute;
+    top: 13%;
+    left: 3%;
+    color: white;
+}
+
+.fell-the-best2 p {
+    position: absolute;
+    top: 55%;
+    font-size: 18px;
+    left: 3%;
+    color: #fff;
+}
+
+.input-btn {
+    position: absolute;
+    top: 63%;
+    font-size: 20px;
+    left: 3%;
+    width: 600px;
+    height: 60px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    gap: 35px;
+    border-radius: 7px;
+}
+
+.input-btn-input {
+    background: none;
+    border: none;
+    font-size: 23px;
+    outline: none;
+    width: 350px;
+    height: 45px;
+
+
+}
+
+.input-btn-div {
+    width: 120px;
+    height: 57px;
+    background-color: #3563E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.input-btn-btn {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1108px) {
+    .fell-the-best2 h1 {
+        font-size: 30px;
+    }
+
+    .fell-the-best2 p {
+        top: 56%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:784px) {
+    .tex {
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width:774px) {
+    .vector1 {
+        width: 250px;
+        height: fit-content;
+        gap: 10px;
+
+    }
+
+    .vectoer1-icon {
+        left: 3.2rem;
+        top: 2.5rem;
+    }
+
+    .vectoer1-icon1 {
+        left: 2.8rem;
+        top: 2.2rem;
+        padding: 2px;
+    }
+
+    .paragraph2 {
+        padding-left: 60px;
+    }
+
+    .vector1 h2 {
+        font-size: 17px;
+        margin: 0;
+
+    }
+
+    .vector1 p {
+        font-size: 13px;
+        margin: 0;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    .fell-the-best2 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .driver-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .fell-the-best2 h1 {
+        font-size: 23px;
+    }
+
+    .input-btn {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:606px) {
+    .vectors {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .vector1 h2 {
+        font-size: 20px;
+
+    }
+
+    .vector1 p {
+        font-size: 15px;
+
+    }
+
+    .fell-the-best h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .fell-the-best2 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .driver-image {
+        width: 100%;
+        height: 250px;
+    }
+
+    .fell-the-best2 h1 {
+        font-size: 19px;
+    }
+
+    .input-btn {
+        width: 400px;
+        height: 50px;
+    }
+
+    .fell-the-best2 p {
+        top: 54%;
+        font-size: 16px;
+    }
+
+    .input-btn-input {
+        font-size: 18px;
+        width: 300px;
+        height: 40px;
+
+
+    }
+
+    .input-btn-div {
+        width: 100px;
+        height: 50px;
+        margin-right: 1px;
+    }
+
+    .input-btn-btn {
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width:567px) {
+    .fell-the-best{
+        width: 70%;
+
+    }
+    .fell-the-best h1{
+        font-size: 16px;
+    }
+    .fell-the-best2{
+        width: 70%;
+        height: fit-content;
+    }
+    .input-btn {
+        width: 250px;
+        height: 40px;
+        display: flex;
+        gap: 2px;
+    }
+
+    .fell-the-best2 p {
+        top: 54%;
+        font-size: 16px;
+    }
+
+    .input-btn-input {
+        font-size: 15px;
+        width: 200px;
+        height: 30px;
+
+
+    }
+
+    .input-btn-div {
+        width: 100px;
+        height: 40px;
+        margin-right: 1px;
+    }
+
+    .input-btn-btn {
+        font-size: 15px;
+    }
+    .fell-the-best h1{
+        text-align: center;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 465px) {
+    .fell-the-best2 h1{
+         font-size: 14px;
+    }
+    .fell-the-best2{
+        height: 200px;
+        width: 400px;
+    }
+    .driver-image{
+        height: 200px;
+    }
+    .fell-the-best2 p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 395px) {
+    .fell-the-best2{
+        height: fit-content;
+        width: 350px;
+    }
+    .driver-image{
+        height: 150px;
+    }
+    .fell-the-best2 p {
+    
+        font-size: 16px;
+    }
+    .input-btn {
+        width: 200px;
+        height: 30px;
+        top: 67%;
+    }
+
+    .input-btn-input {
+        font-size: 13px;
+        width: 100px;
+        height: 25px;
+
+
+    }
+
+    .input-btn-div {
+        width: 70px;
+        height: 30px;
+
+    }
+    .fell-the-best2 p{
+        font-size: 12px;
+        top: 56%;
+    }
+
+    .input-btn-btn {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:365px) {
+    .fell-the-best2{
+        height: fit-content;
+        width: 300px;
+    }
+    .driver-image{
+        height: 150px;
+    }
+    
+}
+@media screen and (max-width: 345px) {
+    .fell-the-best2 h1{
+        font-size: 12px;
+    }
+}

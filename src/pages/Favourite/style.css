@@ -1,0 +1,40 @@
+.favourite-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #f6f7f9;
+    
+}
+.fav-cards-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.favourite-nav{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 0 0 20px;
+    border-radius: 7px;
+}
+.nav-cards{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 0 0 80px; */
+}
+@media screen and (max-width:669px) {
+    .nav-cards{
+        display: flex;   
+        align-items: center;
+    }
+    .fav-cards-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

@@ -1,0 +1,84 @@
+.login-main-createnew {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+.createnew-data{
+    width: 400px;
+    height: 85vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.new-continue-btn-div{
+    width: 352px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3563E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.new-continue-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+@media screen and (max-width:1150px) {
+    .login-main-createnew {
+        display: flex;
+        gap: 70px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .login-main-createnew{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .login-data {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .login-image2 {
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+
+    .emai-input1 {
+        width: 270px;
+        height: 30px;
+    }
+
+    .login-input-and-icon {
+        width: 275px;
+        height: 40px;
+    }
+    .remember-forget2 {
+        gap: 23px;
+    
+    }
+    .new-continue-btn-div {
+        width: 282px;
+        height: 40px;
+    }
+    
+
+
+}

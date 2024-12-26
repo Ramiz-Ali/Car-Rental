@@ -1,0 +1,98 @@
+.login-main-otp {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+.otp-data{
+    width: 30%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.logo-and-text-otp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.otp-p1{
+    text-align: center;
+    line-height: 20px;
+}
+.otp-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.otp-input{
+    width: 352px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+
+}
+.otp-input1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid  #959FAF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otp-input1-input{
+    width: 15px;
+    font-size: 15px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    outline: none;
+    background: none;
+}
+.timer{
+    font-size: 13px;
+    
+}
+.resend-btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight:600;
+}
+@media screen and (max-width:1150px) {
+    .login-main-otp {
+        display: flex;
+        gap: 70px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .login-main-otp{
+        justify-content: center;
+    }
+    .login-image {
+        display: none;
+    }
+    .login-image2 {
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+    .otp-input1{
+        width: 30px;
+        height: 30px;
+    }
+    .otp-input1-input{
+        width: 15px;
+        font-size: 15px;
+    }
+}

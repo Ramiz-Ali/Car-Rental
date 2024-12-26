@@ -1,0 +1,131 @@
+.vehicleright-main{
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.dropdowns{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.make{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.make h4{
+    font-size: 14px;
+}
+.dropdown1{
+    width: 310px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   padding: 0 10px 0 10px;
+    justify-content: space-between;
+    position: relative;
+}
+.dropdown1 p{
+    color: #959FAF;
+    font-size: 14px;
+}
+.min-max-price{
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+}
+.price-range-pkr{
+    font-size: 13px;
+    
+}
+.range-input{
+    width: 310px;
+}
+.min-max{
+    font-size: 11px;
+    color: #959FAF;
+}
+.condition-btns{
+    display: flex;
+    gap: 10px;
+}
+.new-btn{
+    width: 60px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.new-btn-btn{
+    background: none;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.apply-btn-div{
+    width: 325px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3563E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.apply-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Select-box1{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    
+}
+.Select-opt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media screen and (max-width:356px) {
+    .vehicleright-main{
+        width: 280px;
+    }
+    .make h4{
+        font-size: 14px;
+    }
+    .dropdown1{
+        width: 280px;
+        height: 50px;
+    }
+    .dropdown1 p{
+        font-size: 14px;
+    }
+    .min-max-price{
+        font-size: 18px;
+        padding: 0 30px 0 0;
+    }
+    .range-input{
+        width: 300px;
+    }
+    .apply-btn-div{
+        width: 290px;
+        height: 40px;
+    }
+    .apply-btn{
+        font-size: 16px;
+
+    }
+    
+}

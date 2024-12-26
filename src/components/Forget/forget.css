@@ -1,0 +1,135 @@
+.login-main-main2 {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+
+.login-image {
+    width: 50%;
+    background-color: rgba(48, 121, 178, 0.91);
+    position: relative;
+    height: 100vh;
+}
+
+.login-image2 {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+
+.forget-data {
+    width: 30%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.below-logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.below-logo-text h1 {
+    font-size: 19px;
+}
+
+.below-logo-text p {
+    font-size: 13px;
+    color: #959FAF;
+}
+
+.email-input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.emai-input3 {
+    width: 340px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #959FAF;
+    font-size: 14px;
+}
+
+.continue-btn-div{
+    width: 352px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3563E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.continue-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1150px) {
+    .login-main-main2 {
+        display: flex;
+        gap: 70px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .login-main-main2{
+        display: flex;
+        align-items: center;
+        padding-top: 130px;
+        justify-content: center;
+    }
+    .forget-data {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .login-image2 {
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+
+    .emai-input3 {
+        width: 270px;
+        height: 30px;
+    }
+    .continue-btn-div{
+        width:282px;
+        height: 40px;
+    }
+    .continue-btn{
+        font-size: 16px;
+    }
+
+
+}

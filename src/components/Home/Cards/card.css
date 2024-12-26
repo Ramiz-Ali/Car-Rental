@@ -1,0 +1,97 @@
+.first {
+    width: 280px;
+    height: 350px;
+    margin: 30px 0 0 10px;
+    border-radius: 10px;
+    background-color:#fff;
+}
+.car-name-icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+}
+.icons-and-price{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.car-name h3{
+  margin: 0;
+}
+.car-name p{
+  margin: 3px 0 0 0;
+  color: #BFBFC1;
+}
+/* .heart-icons{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+}
+.heart-icon::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: -90px;
+  left: 0;
+  background: linear-gradient(-45deg , #ed1c94, #ffec17);
+  position: absolute;
+  transition: 0.5s;
+}
+.heart-icon:hover:after{
+  top: 0;
+} */
+.car-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.car-properties{
+  display: flex;
+}
+.petrol{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #BFBFC1;
+  font-size: 17px; 
+  padding: 10px 0 0 15px;
+}
+.petrol p{
+  padding-top: 4px;
+}
+.price-car{
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+}
+.price-car p{
+  font-size: 13px;
+  color: #BFBFC1;
+}
+.price-car h5{
+  font-size: 11px;
+  
+}
+.rent-now-button{
+  width: 110px;
+  height: 40px;
+  background-color: #3563E9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 38px;
+  cursor: pointer;
+}
+.rent-now2{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,249 @@
+.profile-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.profile-main {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.image-save-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px 0 20px;
+}
+
+.image-upload-btn {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+}
+
+.profile-upload-btn-div {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3563E9;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.profile-upload-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-save-btn-div {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34A853;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.profile-save-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-line1 {
+    display: flex;
+    gap: 70px;
+}
+
+.fullname {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.full-name-input {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #f6f7f9;
+    border-radius: 7px;
+    padding-left: 10px;
+
+}
+
+.radio-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.radio1 {
+    display: flex;
+    width: 125px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f7f9;
+    padding: 0 10px 0 10px;
+    border-radius: 7px;
+
+}
+
+.profile-main2{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    padding: 30px;
+    gap: 100px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.fisrt-cards-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first-card{
+    width: 280px;
+    height: 250px;
+    background-color: #f6f7f9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+}
+.upload-picture-div{
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3563E9;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 170px;
+    
+}
+.upload-picture-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+@media screen and (max-width:1130px) {
+    .profile-container1{
+        display: flex;
+        align-items: center;
+    }
+    .profile-main{
+        width: fit-content;
+    }
+    .image-save-btn {
+        padding: 0 10px 0 20px;
+    }
+    .profile-line1 {
+        gap: 60px;
+        margin-left: 50px;
+    }
+    
+    .fullname {
+        gap: 7px;
+    }
+    
+    .full-name-input {
+        width: 240px;
+        height: 50px;
+    
+    }
+    
+    .radio-buttons {
+        display: flex;
+        gap: 20px;
+    }
+    .radio1 {
+        width: 95px;
+        height: 50px;
+        padding: 0 10px 0 10px;
+    
+    }
+    .profile-main2{
+        width: fit-content;
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .image-save-btn {
+        padding: 0 10px 0 20px;
+    }
+    .profile-line1 {
+        gap: 40px;
+        margin-left: 50px;
+    }
+    
+    .fullname {
+        gap: 7px;
+    }
+    
+    .full-name-input {
+        width: 200px;
+        height: 45px;
+    
+    }
+    .fullname h3{
+        font-size: 15px;
+    }
+    .radio-buttons {
+        display: flex;
+        gap: 20px;
+    }
+    .radio1 {
+        width: 75px;
+        height: 45px;
+        padding: 0 10px 0 10px;
+    
+    }
+    .radio1 p{
+        font-size: 14px;
+    }
+    .profile-main2{
+        width: fit-content;
+        gap: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+}
+@media screen and (max-width:770px) {
+    .profile-main{
+        height: fit-content;
+    }
+    .profile-line1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

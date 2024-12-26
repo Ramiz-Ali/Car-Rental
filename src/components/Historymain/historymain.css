@@ -1,0 +1,381 @@
+.history-main{
+    width: 1100px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    background-color: #f6f7f9;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.history-text-p{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+}
+.history-text-p p{
+    color: #9DADC6;
+}
+.history-cards{
+    display: flex;
+    gap: 40px;
+}
+.history-card1{
+    width: 550px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+
+    
+}
+.cards-left{
+    width: 250px;
+    height: 240px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cards-right{
+    width: 250px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 60px;
+
+    
+}
+.history-car-name{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.history-car-name p{
+    color: #9DADC6;
+}
+.cancel-return-btns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: right;
+
+}
+.cancel-return-btns p{
+    color: red;
+    cursor: pointer;
+}
+.return-btn-div{
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2CB67D;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.return-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.history-pick-point{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+}
+.history-pick-point-span1{
+    font-size: 18px;
+}
+.history-pick-point-span2{
+    font-size: 15px;
+    color: #9DADC6;
+}
+.history-days{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #9DADC6;
+}
+.days28{
+    color: black;
+    font-size: 15px;
+}
+.history-car-name-drop{
+    display: flex;
+    align-items: end;
+    gap: 13px;
+}
+.history-car-price{
+    display: flex;
+    gap: 5px;
+    
+}
+.history-car-price p{
+    font-size: 13px;
+    color: #9DADC6;
+}
+.re-rent-btn-div{
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3563E9;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.re-rent-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.thanku-popup-main{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+
+}
+.thanku-top{
+    width: 60px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #dde2eb;
+}
+.thanku-text-p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.thanku-text-span1{
+    font-size: 22px;
+    font-weight: 400;
+}
+.thanku-text-span2{
+    font-size: 16px;
+    color: #9DADC6;
+}
+.popup-stars{
+    display: flex;
+    gap: 8px;
+}
+.hey-joe-msg-div{
+    width: 370px;
+    height: 130px;
+    border: 2px solid #E0E4E5;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.hey-joe-msg-div p{
+    font-weight: 600;
+}
+.hey-joe-meg-input{
+    width: 310px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.popup-send-div{
+    width: 392px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3563E9;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.popup-send{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.popup2{
+    width: 290px;
+    height: 210px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    
+
+}
+.popup2 p{
+    font-size: 14px;
+    color: #9DADC6;
+    text-align: center;
+}
+.popup2-yesbtn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    background-color: #3563E9;
+    border-radius: 30px;
+}
+.popup2-yes{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    background: none;
+}
+.yes-no-btns{
+    display: flex;
+    gap: 10px;
+}
+.popup2-nobtn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    background-color: #f6f7f9;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.popup2-no{
+    border: none;
+    color: #9DADC6;
+    font-size: 17px;
+    background: none;
+    cursor: pointer;
+}
+.history-popup1{
+    width: 100%;
+    height: 72.7vh;
+    background-color: rgba(148, 148, 149, 0.91);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.history-popup2{
+    width: 100%;
+    height: 72.7vh;
+    background-color: rgba(148, 148, 149, 0.91);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (max-width:1200px) {
+    .history-main{
+        height: fit-content;
+    }
+    .history-cards{
+        gap: 80px;
+    }
+    .history-card1{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+    }
+    .history-text-p p{
+        padding: 0 10px 0 10px;
+    }
+}
+@media screen and (max-width:768px) {
+    .history-popup1{
+        width: 100%;
+        height: 72.7vh;
+        padding:43px 0 43px 0;
+    }
+    .thanku-popup-main{
+        width: 400px;
+        height: 400px; 
+    }
+
+}
+@media screen and (max-width:765px) {
+    .history-cards{
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:440px) {
+    .history-popup2{
+        width: 100%;
+        height: 100vh;
+        padding:43px 0 43px 0;
+    }
+    .history-popup1{
+        width: 100%;
+        height: 100vh;
+        padding:43px 0 43px 0;
+        margin-top: 540px;
+    }
+    .thanku-popup-main{
+        width: 280px;
+        height: fit-content; 
+    }
+    .hey-joe-msg-div{
+        width: 250px;
+    }
+    .hey-joe-meg-input{
+        width: 230px;
+    }
+    .popup-send-div{
+        width: 275px;
+    }
+
+}
+@media screen and (max-width:350px) {
+    .popup2{
+        width: 250px;
+        height: 210px;
+    }
+    .popup2-yesbtn-div{
+        width: 120px;
+        height: 45px;
+    }
+  
+    .popup2-nobtn-div{
+        width: 120px;
+        height: 45px;
+    }
+    .thanku-popup-main{
+        width: 250px;
+        height: fit-content; 
+    }
+    .hey-joe-msg-div{
+        width: 220px;
+    }
+    .hey-joe-meg-input{
+        width: 200px;
+    }
+    .popup-send-div{
+        width: 250px;
+    }
+}
